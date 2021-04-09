@@ -214,6 +214,14 @@ form a {
     width: 88%;
 }
 
+.func-sec a {
+    display: block;
+}
+
+.func-sec .row {
+    margin-bottom: 90px;
+}
+
 /* Ut */
 .text-center {
     text-align: center;
@@ -294,6 +302,10 @@ h4 {
 
 .light-blue {
     color: #006aff;
+}
+
+.bg-blue {
+    background-color: #0043c1;
 }
 
 .bg-light-blue-2 {
