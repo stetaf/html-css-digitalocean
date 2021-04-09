@@ -196,12 +196,16 @@ form a {
 }
 
 .circles {
-    margin: 15px 0;
+    margin: 15px 0 70px 0;
 }
 
 .circles > i {
     margin: unset !important;
     font-size: 13px !important;
+}
+
+.func-sec h2 {
+    margin-bottom: 45px;
 }
 
 /* Ut */
