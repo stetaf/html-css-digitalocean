@@ -12,6 +12,7 @@ nav > .container {
 nav li {
     font-weight: 600;
     font-size: 18px;
+    margin-left: 20px;
 }
 
 nav ul > li {
@@ -141,7 +142,7 @@ form a {
 
 .deploy-list li {
     padding: 15px 0;
-    margin-left: -5px;
+    margin-left: 20px;
 }
 
 .info1 > .row {
@@ -162,9 +163,9 @@ form a {
     font-size: 18px;
 }
 
-.info1 h4 {
+.info1 h4, .func-sec h4 {
     text-transform: unset;
-    font-size: 22px;
+    font-size: 20px;
     margin: 10px 0;
 }
 
@@ -206,6 +207,11 @@ form a {
 
 .func-sec h2 {
     margin-bottom: 45px;
+}
+
+.func-sec p {
+    font-size: 18px;
+    width: 88%;
 }
 
 /* Ut */
@@ -300,7 +306,6 @@ h4 {
 
 a {
     text-decoration: none;
-    margin-left: 20px;
 }
 
 .fas, #signup, #signup-google {
