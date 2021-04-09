@@ -5,12 +5,8 @@
 }
 
 .container {
-    max-width: 83%;
+    max-width: 75%;
     margin: 0 auto;
-}
-
-.flex {
-    display: flex;
 }
 
 .row {

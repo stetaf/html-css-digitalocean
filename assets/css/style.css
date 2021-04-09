@@ -2,8 +2,11 @@ body {
     font-family: 'Inter-Medium','Helvetica','san-serif';
 }
 
+
+/* Header +*/
 nav > .container {
     height: 80px;
+    justify-content: space-between;
 }
 
 nav li {
@@ -15,6 +18,57 @@ nav li {
     height: 35px;
 }
 
+.main-sec {
+    height: 550px;
+}
+
+.main-sec p {
+    color: darkgray;
+    font-size: 25px;
+}
+
+.bg-image-main {
+    background-image: url("../img/bg-banner-home.jpg");
+}
+
+h1 {
+    font-size: 65px;
+    color: white;
+}
+
+.main-sec .col-6 {
+    margin: 7% auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+form input, form a, form label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+form a {
+    margin: unset;
+}
+
+#tos {
+    display: inline-block;
+}
+
+/* Ut */
+.flex {
+    display: flex;
+}
+
+.a-it-center {
+    align-items: center;
+    justify-content: center;
+}
+
 .s-center {
     align-self: center;
 }
@@ -23,7 +77,6 @@ nav li {
     justify-content: space-around;
 }
 
-/* Ut */
 .dark-blue {
     color: #082051;
 }
