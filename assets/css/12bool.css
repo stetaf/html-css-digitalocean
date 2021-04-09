@@ -19,15 +19,6 @@
     content: "";
 }
 
-nav ul > li {
-    list-style: none;
-    display: inline-block;
-}
-
-.p5 {
-    padding: 5px;
-}
-
 /* COLUMNS */
 [class*="col-"] {
     float: left;

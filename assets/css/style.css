@@ -14,6 +14,10 @@ nav li {
     font-size: 18px;
 }
 
+nav ul > li {
+    display: inline-block;
+}
+
 .site-logo {
     height: 35px;
 }
@@ -123,15 +127,49 @@ form a {
 }
 
 .info1 h3 {
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 500;
     margin-top: 15px;
-    padding: 0px 3.5%;
+    margin-bottom: 60px;
+    padding: 0px 1.5%;
+}
+
+.deploy-list {
+    border-left: 2px solid darkgrey;
+    font-size: 20px;
+}
+
+.deploy-list li {
+    padding: 15px 0;
+    margin-left: -5px;
+}
+
+.info1 [class*="col-"] > .row {
+    margin-left: 25px;
+}
+
+.info1 .info-col {
+    padding: 10px;
+}
+
+.info1 [class*="col-"] p {
+    width: 80%;
+    line-height: 23px;
+}
+
+.info1 h4 {
+    text-transform: unset;
+    font-size: 20px;
+    margin: 10px 0;
 }
 
 /* Ut */
 .text-center {
     text-align: center;
+}
+
+li {
+    list-style: none;
 }
 
 .bold {
@@ -224,10 +262,18 @@ a {
     font-size: 15px;
 }
 
+.p5 {
+    padding: 5px;
+}
+
 .p-bot30 {
     padding-bottom: 30px;
 }
 
 .p-top100 {
     padding-top: 100px;
+}
+
+.m-top20 {
+    margin-top: 20px;
 }
