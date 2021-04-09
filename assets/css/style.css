@@ -105,13 +105,34 @@ form a {
     background-position: 2%;
 }
 
+.comp-sec h4 {
+    margin: 50px 0 15px 0;
+    color: #6f7b97;
+}
+
+#comp-logos img {
+    margin: 0 5px;
+}
+
 /* Ut */
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 600;
+}
+
 h1 {
     font-size: 65px;
 }
 
 h2 {
     font-size: 32px;
+}
+
+h4 {
+    text-transform: uppercase;
 }
 
 .btn-m {
@@ -161,6 +182,10 @@ h2 {
 
 .bg-light-blue-2 {
     background-color: #579aff;
+}
+
+.bg-light-gray {
+    background-color: #f3f5f9;
 }
 
 a {
