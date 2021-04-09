@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inter-Medium','Helvetica','san-serif';
+}
+
+nav > .container {
+    height: 80px;
+}
+
+nav li {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.site-logo {
+    height: 35px;
+}
+
+.s-center {
+    align-self: center;
+}
+
+.s-around {
+    justify-content: space-around;
+}
+
+/* Ut */
+.dark-blue {
+    color: #082051;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.fas {
+    font-size: 16px;
+}

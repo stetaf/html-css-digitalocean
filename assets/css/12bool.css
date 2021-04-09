@@ -5,8 +5,12 @@
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 83%;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
 }
 
 .row {
@@ -17,6 +21,11 @@
     display: table;
     clear: both;
     content: "";
+}
+
+nav ul > li {
+    list-style: none;
+    display: inline-block;
 }
 
 .p5 {
@@ -127,7 +136,7 @@ MEDIA QUERIES
 
 /* Large devices */
 @media screen and (min-width: 992px) {
-    
+
     .col-l-1 {
         width: calc( (100% / 12 ) * 1 );
     }
