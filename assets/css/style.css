@@ -30,6 +30,8 @@ nav li {
 
 .bg-image-main {
     background-image: url("../img/bg-banner-home.jpg");
+    background-position: 83%;
+    background-size: cover;
 }
 
 .main-sec .col-6, .card {
