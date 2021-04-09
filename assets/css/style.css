@@ -107,11 +107,26 @@ form a {
 
 .comp-sec h4 {
     margin: 50px 0 15px 0;
-    color: #6f7b97;
+}
+
+#c-sto::after {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f531";
+    font-size: 11px;
+    color: #006aff;
+    margin-left: 15px;
 }
 
 #comp-logos img {
     margin: 0 5px;
+}
+
+.info1 h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+    padding: 0px 3.5%;
 }
 
 /* Ut */
@@ -133,6 +148,10 @@ h2 {
 
 h4 {
     text-transform: uppercase;
+}
+
+.f-40 {
+    font-size: 40px;
 }
 
 .btn {
@@ -176,6 +195,10 @@ h4 {
     color: darkgray;
 }
 
+.dark-gray2 {
+    color: #6f7b97;
+}
+
 .dark-blue {
     color: #082051;
 }
@@ -199,4 +222,12 @@ a {
 
 .fas, #signup, #signup-google {
     font-size: 15px;
+}
+
+.p-bot30 {
+    padding-bottom: 30px;
+}
+
+.p-top100 {
+    padding-top: 100px;
 }
