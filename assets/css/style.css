@@ -153,13 +153,14 @@ form a {
 }
 
 .info1 [class*="col-"] p {
-    width: 80%;
+    width: 82%;
     line-height: 23px;
+    font-size: 18px;
 }
 
 .info1 h4 {
     text-transform: unset;
-    font-size: 20px;
+    font-size: 22px;
     margin: 10px 0;
 }
 
