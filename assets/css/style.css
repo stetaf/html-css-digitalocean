@@ -95,7 +95,7 @@ form a {
 }
 
 #signup-google {
-    background-image: url(../img/google-icon.png);
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("../img/google-icon.png");
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 2%;
