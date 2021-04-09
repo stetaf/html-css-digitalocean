@@ -24,31 +24,47 @@ nav li {
 
 .main-sec p {
     color: darkgray;
-    font-size: 25px;
+    font-size: 24px;
+    line-height: 35px;
 }
 
 .bg-image-main {
     background-image: url("../img/bg-banner-home.jpg");
 }
 
-h1 {
-    font-size: 65px;
-    color: white;
-}
-
-.main-sec .col-6 {
+.main-sec .col-6, .card {
     margin: 7% auto;
 }
 
 .card {
     background-color: white;
     border-radius: 10px;
-    padding: 25px;
+    padding: 22px;
+    text-align: center;
+}
+
+.card input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid lightgray;
+}
+
+.card input::placeholder {
+    padding-left: 5px;
+}
+
+.card input::placeholder, form span {
+    font-size: 15px;
 }
 
 form input, form a, form label {
     display: block;
     margin-bottom: 15px;
+}
+
+form h2, a:not(#tos) {
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 form a {
@@ -57,9 +73,55 @@ form a {
 
 #tos {
     display: inline-block;
+    font-size: 15px;
+    margin: 10px 0 15px 0;
+    text-decoration: underline;
+    color: blue;
+}
+
+#signup, #signup-google {
+    font-weight: 600;
+}
+
+#signup-google img {
+    height: 25px;
+    position: relative;
+    left: -32%;
+    top: 1px;
+}
+
+#signup-google span{
+    vertical-align: super;
+}
+
+#signup-google {
+    background-image: url(../img/google-icon.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 2%;
 }
 
 /* Ut */
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.btn-m {
+    padding: 10px;
+}
+
+.btn-shad5 {
+    box-shadow: 0 0 5px lightgrey;
+}
+
+.b-rad5 {
+    border-radius: 5px;
+}
+
 .flex {
     display: flex;
 }
@@ -77,8 +139,24 @@ form a {
     justify-content: space-around;
 }
 
+.white {
+    color: white;
+}
+
+.dark-gray {
+    color: darkgray;
+}
+
 .dark-blue {
     color: #082051;
+}
+
+.light-blue {
+    color: #006aff;
+}
+
+.bg-light-blue-2 {
+    background-color: #579aff;
 }
 
 a {
@@ -86,6 +164,6 @@ a {
     margin-left: 20px;
 }
 
-.fas {
-    font-size: 16px;
+.fas, #signup, #signup-google {
+    font-size: 15px;
 }
