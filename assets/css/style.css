@@ -126,7 +126,7 @@ form a {
     margin: 0 5px;
 }
 
-.info1 h3 {
+.info1 h3, .dev-sec h3 {
     font-size: 26px;
     font-weight: 500;
     margin-top: 15px;
@@ -142,6 +142,10 @@ form a {
 .deploy-list li {
     padding: 15px 0;
     margin-left: -5px;
+}
+
+.info1 > .row {
+    margin-bottom: 80px;
 }
 
 .info1 [class*="col-"] > .row {
@@ -162,6 +166,42 @@ form a {
     text-transform: unset;
     font-size: 22px;
     margin: 10px 0;
+}
+
+.dev-sec h3 {
+    margin-top: 30px;
+}
+
+.dev-sec img {
+    width: 47%;
+}
+
+.dev-sec .flex {
+    justify-content: center;
+}
+
+.dev-sec .fas {
+    align-self: center;
+    font-size: 50px;
+    margin: 0 30px;
+}
+
+.dev-sec [class*="left"] {
+    filter: opacity(0.6);
+}
+
+.dev-sec h4 {
+    text-transform: unset;
+    margin-top: 25px;
+}
+
+.circles {
+    margin: 15px 0;
+}
+
+.circles > i {
+    margin: unset !important;
+    font-size: 13px !important;
 }
 
 /* Ut */
