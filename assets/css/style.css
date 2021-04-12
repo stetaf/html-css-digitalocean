@@ -234,11 +234,6 @@ form a {
     margin-right: 15px;
 }
 
-.outline {
-    border-bottom: 1px solid white;
-    margin: 10px 0;
-}
-
 .dev-sec .rockerbox {
     width: 47%;
     padding: 85px 0;
@@ -257,6 +252,13 @@ form a {
 
 .dev-sec .circles {
     margin: 35px 0 70px 0;
+}
+
+.getstarted-sec a {
+    display: inline-block;
+    padding: 13px 20px;
+    font-size: 20px;
+    margin: 30px 0 60px 0 !important;
 }
 
 /* Ut */
@@ -359,6 +361,11 @@ h4 {
 
 .bg-white {
     background-color: white;
+}
+
+.outline {
+    border-bottom: 1px solid white;
+    margin: 10px 0;
 }
 
 a {
