@@ -567,9 +567,14 @@ a {
     .rockerbox img { width: 80%; }
     /* /DEV-SEC2 */
 
+    /* FOOTER */
+    .socials { margin-bottom: 25px; }
+
     .support {
         right: 0;
         bottom: 27px;
     }
+
+    /* /FOOTER */
 
 }
