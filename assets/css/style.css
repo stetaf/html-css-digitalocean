@@ -642,13 +642,23 @@ a {
     /* /DEV-SEC */
 
     /* FUNC-SEC */
-    .func-sec .mini-sec { padding-left: 10px; }
+    .func-sec .mini-sec { margin-top: 25px; }
 
     .func-sec p { font-size: 16px; width: 90% }
     /* /FUNC-SEC */
 
     /* DATAC-SEC */
     #first-dc { margin-bottom: 25px; }
+    
+    .datac-sec .data-center { 
+        width: 100%; 
+        padding: 0;
+        line-height: unset;
+    }
+
+    .aqua { padding-left: 25px; }
+
+    .m-bot60 { margin-bottom: 100px; }
     /* /DATA-SEC */
 
     /* DEV-SEC2 */
