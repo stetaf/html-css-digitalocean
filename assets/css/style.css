@@ -531,6 +531,14 @@ a {
         margin: -25px auto;
     }
 
+    /* INFO1 */
+    .info1 h3 { font-size: 23px; }
+
+    .info1 [class*="col-"] p {
+        width: 76%;
+        font-size: 18px;
+    }
+
     .support {
         right: 0;
         bottom: 27px;
