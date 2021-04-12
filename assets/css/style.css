@@ -522,6 +522,15 @@ a {
         font-size: 13px;
     }
 
+    /* COMP-SEC */
+    .comp-sec img {
+        width: 100px;
+    }
+
+    #comp-logos {
+        margin: -25px auto;
+    }
+
     .support {
         right: 0;
         bottom: 27px;
