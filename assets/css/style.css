@@ -554,10 +554,22 @@ a {
 
     /* DATAC-SEC */
     #first-dc { margin-bottom: 25px; }
+    /* /DATA-SEC */
+
+    /* DEV-SEC2 */
+    .rockerbox h3 {
+        font-size: 20.5px;
+        padding: 0 7px;
+    }
+
+    .dev-sec .rockerbox { padding: 45px 0; } 
+
+    .rockerbox img { width: 80%; }
+    /* /DEV-SEC2 */
 
     .support {
         right: 0;
         bottom: 27px;
     }
-    
+
 }
