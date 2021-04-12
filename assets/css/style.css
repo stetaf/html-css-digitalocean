@@ -1,5 +1,6 @@
 body {
     font-family: 'Inter-Medium','Helvetica','san-serif';
+    min-width: 300px;
 }
 
 
@@ -656,7 +657,15 @@ a {
         line-height: unset;
     }
 
-    .aqua { padding-left: 25px; }
+    .data-center .aqua { 
+        padding: unset;
+        margin: unset;
+    }
+
+    .data-center > .col-s-4 {
+        text-align: right;
+        padding-right: 10px;
+    }
 
     .m-bot60 { margin-bottom: 100px; }
     /* /DATA-SEC */
