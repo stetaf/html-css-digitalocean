@@ -237,6 +237,10 @@ form a {
     margin-right: 15px;
 }
 
+#test { 
+    text-align: right;
+}
+
 .dev-sec .rockerbox {
     width: 47%;
     padding: 85px 0;
