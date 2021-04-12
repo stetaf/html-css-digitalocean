@@ -635,7 +635,7 @@ a {
 
     /* COMP-SEC */
     .comp-sec img {
-        width: 200px;
+        max-width: 45%;
     }
     /* /COMP-SEC */
 
