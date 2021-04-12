@@ -637,6 +637,10 @@ a {
         font-size: 41px;
     }
 
+    [class*="fa-angle"] {
+        display: none;
+    }
+
     /* HEADER */
     .menu {
         display: none;

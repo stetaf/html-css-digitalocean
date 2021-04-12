@@ -608,6 +608,10 @@ a {
         font-size: 41px;
     }
 
+    .dev-sec [class*="fa-angle"] {
+        display: none;
+    }
+
     /* HEADER */
     .menu {
         display: none;
@@ -656,6 +660,11 @@ a {
 
     /* DEV-SEC */
     #circles1 { margin: 75px 0; }
+
+    .dev-sec img {
+        width: 70%;
+    }
+    
     /* /DEV-SEC */
 
     /* FUNC-SEC */
