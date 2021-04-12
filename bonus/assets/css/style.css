@@ -24,6 +24,8 @@ nav ul > li {
     display: none;
 }
 
+#x-menu { display: none;}
+
 .site-logo {
     height: 35px;
 }
@@ -718,3 +720,42 @@ a {
 
 }
 /* /SMALL DEVICES */
+
+
+/********
+   BONUS
+*********/
+
+/* MOBILE-MENU */
+#d-menu-list {
+    display: none;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+    border-left: 2px solid #006aff;
+}
+
+#d-menu-list li {
+    display: block;
+    margin: 15px 15px;
+}
+
+#d-menu:hover + #d-menu-list {
+    display: block !important;
+}
+
+#close-menu:hover + #d-menu-list {
+    display: none !important;
+}
+
+#close-menu {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+/* /MOBILE-MENU */
