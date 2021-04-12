@@ -623,12 +623,18 @@ a {
     /* /COMP-SEC */
 
     /* INFO1 */
-    .info1 h3 { font-size: 23px; }
+    .info1 [class*="col-"] > .row { margin-left: unset; }
 
-    .info1 [class*="col-"] p {
-        width: 76%;
-        font-size: 18px;
+    .info1 [class*="col-"] p { 
+        width: 95.5%;
+        line-height: 23px;
+        font-size: 17px;
+        margin-bottom: 10px;
     }
+
+    .deploy-list { margin-bottom: 25px; }
+
+    .row .m-top20 { margin-top: unset; }
     /* /INFO1 */
 
     /* DEV-SEC */
