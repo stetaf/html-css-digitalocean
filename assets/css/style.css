@@ -577,12 +577,15 @@ a {
         bottom: 27px;
     }
 
+    .helper { width: 50vw; }
     /* /FOOTER */
 
 }
 /* /MEDIUM DEVICES */
 
-@media screen and (max-width: 767px) {
+
+/* SMALL DEVICES */
+@media screen and (max-width: 768px) {
   
     .container {
         max-width: 95% !important;
@@ -694,6 +697,11 @@ a {
         bottom: 27px;
     }
 
+    .helper { 
+        width: 60vw; 
+        margin-top: 20px;
+    }
     /* /FOOTER */
 
 }
+/* /SMALL DEVICES */
