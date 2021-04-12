@@ -293,9 +293,9 @@ footer li {
 
 .support {
     display: inline-block;
-    position: relative;
-    right: -83%;
-    bottom: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 25px;
 }
 
 .helper {
@@ -303,16 +303,32 @@ footer li {
     position: relative;
     width: 23rem;
     padding: 15px;
+    -webkit-box-shadow: 0px 1px px 0px #000000;
+    -moz-box-shadow: 0px 1px 2px 0px #000000;
+    -o-box-shadow: 0px 1px 2px 0px #000000;
+    box-shadow: 0px 1px 2px 0px #000000;
 }
 
 .helper::after {
     position: absolute;
-    left: 99.5%;
+    right: -10px;
     top: 30px;
     width: 0;
     height: 0;
     content: '';
     border-left: 10px solid white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.helper::before {
+    position: absolute;
+    right: -10px;
+    top: 30px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-left: 10px solid black;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
@@ -600,7 +616,6 @@ a {
     .socials { margin-bottom: 25px; }
 
     .support {
-        right: 0;
         bottom: 27px;
     }
 
@@ -720,7 +735,6 @@ a {
     .socials { margin-bottom: 25px; }
 
     .support {
-        right: 0;
         bottom: 27px;
     }
 
