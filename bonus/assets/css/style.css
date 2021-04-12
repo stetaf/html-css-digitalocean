@@ -823,15 +823,17 @@ a {
 /* MOBILE-MENU */
 #d-menu-list {
     display: none;
-    height: 100%;
+    height: 101%;
     width: 50%;
     background-color: white;
     position: absolute;
     z-index: 999;
     top: 0;
     right: 0;
-    padding-top: 10px;
+    padding: 10px 0 20px 0;
     border-left: 2px solid #006aff;
+    border-bottom: 2px solid #006aff;
+    overflow-y: auto;
 }
 
 #d-menu-list li {
@@ -851,5 +853,9 @@ a {
     position: absolute;
     top: 25px;
     right: 15px;
+}
+
+.dropdown-menu a {
+    color: #006aff;
 }
 /* /MOBILE-MENU */
