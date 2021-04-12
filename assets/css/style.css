@@ -618,11 +618,7 @@ a {
 
     /* COMP-SEC */
     .comp-sec img {
-        width: 100px;
-    }
-
-    #comp-logos {
-        margin: -25px auto;
+        width: 200px;
     }
     /* /COMP-SEC */
 
