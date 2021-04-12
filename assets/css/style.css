@@ -277,6 +277,11 @@ footer i {
     margin-right: 10px;
 }
 
+footer li {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
 /* Ut */
 .text-center {
     text-align: center;
