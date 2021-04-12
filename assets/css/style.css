@@ -521,6 +521,7 @@ a {
         line-height: unset;
         font-size: 13px;
     }
+    /* /HEADER */
 
     /* COMP-SEC */
     .comp-sec img {
@@ -530,6 +531,7 @@ a {
     #comp-logos {
         margin: -25px auto;
     }
+    /* /COMP-SEC */
 
     /* INFO1 */
     .info1 h3 { font-size: 23px; }
@@ -550,8 +552,12 @@ a {
     .func-sec p { font-size: 16px; width: 90% }
     /* /FUNC-SEC */
 
+    /* DATAC-SEC */
+    #first-dc { margin-bottom: 25px; }
+
     .support {
         right: 0;
         bottom: 27px;
     }
+    
 }
