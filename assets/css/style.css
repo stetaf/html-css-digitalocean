@@ -538,6 +538,10 @@ a {
         width: 76%;
         font-size: 18px;
     }
+    /* /INFO1 */
+
+    /* DEV-SEC */
+    #circles1 { margin: 75px 0; }
 
     .support {
         right: 0;
