@@ -38,7 +38,7 @@ nav ul > li {
     background-size: cover;
 }
 
-.main-sec .col-6, .card {
+.main-sec .col-l-6, .card {
     margin: 7% auto;
 }
 
@@ -490,6 +490,7 @@ a {
 }
 
 
+/* MEDIUM DEVICES */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   
     .container {
@@ -512,6 +513,98 @@ a {
     .dropdown-menu i {
         font-size: 25px;
     }
+
+    .card {
+        margin: 5% 0 20% 2%;
+    }
+
+    .main-sec form p, .tos a {
+        line-height: unset;
+        font-size: 13px;
+    }
+    /* /HEADER */
+
+    /* COMP-SEC */
+    .comp-sec img {
+        width: 100px;
+    }
+
+    #comp-logos {
+        margin: -25px auto;
+    }
+    /* /COMP-SEC */
+
+    /* INFO1 */
+    .info1 h3 { font-size: 23px; }
+
+    .info1 [class*="col-"] p {
+        width: 76%;
+        font-size: 18px;
+    }
+    /* /INFO1 */
+
+    /* DEV-SEC */
+    #circles1 { margin: 75px 0; }
+    /* /DEV-SEC */
+
+    /* FUNC-SEC */
+    .func-sec .mini-sec { padding-left: 10px; }
+
+    .func-sec p { font-size: 16px; width: 90% }
+    /* /FUNC-SEC */
+
+    /* DATAC-SEC */
+    #first-dc { margin-bottom: 25px; }
+    /* /DATA-SEC */
+
+    /* DEV-SEC2 */
+    .rockerbox h3 {
+        font-size: 20.5px;
+        padding: 0 7px;
+    }
+
+    .dev-sec .rockerbox { padding: 45px 0; } 
+
+    .rockerbox img { width: 80%; }
+    /* /DEV-SEC2 */
+
+    /* FOOTER */
+    .socials { margin-bottom: 25px; }
+
+    .support {
+        right: 0;
+        bottom: 27px;
+    }
+
+    /* /FOOTER */
+
+}
+/* /MEDIUM DEVICES */
+
+@media screen and (max-width: 767px) {
+  
+    .container {
+        max-width: 95% !important;
+    }
+
+    h1 {
+        font-size: 41px;
+    }
+
+    /* HEADER */
+    .menu {
+        display: none;
+    }
+
+    .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-menu i {
+        font-size: 25px;
+    }
+
+    .main-sec .col-l-6 { margin: 10% 0 -5% 0; }
 
     .card {
         margin: 5% 0 20% 2%;
