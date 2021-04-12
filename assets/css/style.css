@@ -542,6 +542,13 @@ a {
 
     /* DEV-SEC */
     #circles1 { margin: 75px 0; }
+    /* /DEV-SEC */
+
+    /* FUNC-SEC */
+    .func-sec .mini-sec { padding-left: 10px; }
+
+    .func-sec p { font-size: 16px; width: 90% }
+    /* /FUNC-SEC */
 
     .support {
         right: 0;
