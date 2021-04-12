@@ -282,6 +282,64 @@ footer li {
     font-weight: 600;
 }
 
+.support {
+    display: inline-block;
+    position: relative;
+    right: -83%;
+    bottom: 50px;
+}
+
+.helper {
+    display: inline-block;
+    position: relative;
+    width: 23rem;
+    padding: 15px;
+}
+
+.helper::after {
+    position: absolute;
+    left: 99.5%;
+    top: 30px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-left: 10px solid white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.shark-logo {
+    background: #006aff;
+    background-image: url("../img/shark.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.notifications {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: white;
+    padding: 5.5px 3px;
+    border-radius: 50%;
+
+}
+
+.notifications > span {
+    background-color: red;
+    padding: 3px 7.5px;
+    font-size: 14.5px;
+    border-radius: 50%;
+    color: white;
+}
+
 /* Ut */
 .text-center {
     text-align: center;
