@@ -662,14 +662,19 @@ a {
     /* /DATA-SEC */
 
     /* DEV-SEC2 */
+    #dev2 [class*="angle"] { display: none; }
+
     .rockerbox h3 {
-        font-size: 20.5px;
+        font-size: 25.5px;
         padding: 0 7px;
     }
 
-    .dev-sec .rockerbox { padding: 45px 0; } 
+    .dev-sec .rockerbox { 
+        width: 65%;
+        padding: 50px 0; 
+    } 
 
-    .rockerbox img { width: 80%; }
+    .rockerbox img { width: 95%; }
     /* /DEV-SEC2 */
 
     /* FOOTER */
