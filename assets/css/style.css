@@ -125,6 +125,8 @@ form a {
     margin: 0 5px;
 }
 
+.info1 { padding-bottom: 70px; }
+
 .info1 h3, .dev-sec h3 {
     font-size: 26px;
     font-weight: 500;
